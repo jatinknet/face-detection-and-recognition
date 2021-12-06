@@ -1,0 +1,27 @@
+﻿/*
+
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace FaceRecognition
+{
+	/// <summary>
+	/// Description of frmAbout.
+	/// </summary>
+	public partial class frmAbout : Form
+	{
+		public frmAbout()
+		{
+		
+			InitializeComponent();
+		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			Close();
+		}
+	}
+}
